@@ -1,13 +1,84 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Public Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0));
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ininavbar {
+  background-color: #f1f1f2;
+}
+
+.foodcard {
+  box-shadow: 0px 8px 10px 0px rgba(10, 31,68,0.1);
+}
+
+.addbutton {
+  background-color: #f9423a;
+  border: none;
+  width: 100px;
+}
+
+.addbutton:hover {
+  background-color: #f09180;
+  color: white;
+}
+
+.addcart {
+ background-color: #a23530;
+ width: 100%;
+ border: none;
+}
+
+.addcart:hover {
+  background-color: #f09180;
+  color: white;
+}
+.btnld {
+  width: 50%;
+}
+
+.buttoncomp {
+  position:center;
+}
+
+.dot{
+  height: 5px;
+  width: 5px;
+  background-color: #424749;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btndate {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+  display: inline;
+}
+
+.btndate:hover {
+  background-color: #666;
+  color: white;
+  border-radius: 50%;
+}
+
+.btndate:active {
+  background-color: #666;
+  color: white;
+  border-radius: 50%;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
 }
